@@ -26,5 +26,9 @@ env/
 # macOS
 .DS_Store
 
-# Lab outputs (không commit, chỉ nộp evidence/)
-data/ragas_report.json
+# Cache trung gian của bước RAGAS (không commit)
+# data/ragas_report.json là deliverable bắt buộc nên phải được commit.
+data/ragas_outputs_v1.json
+data/ragas_outputs_v2.json
+data/ragas_scores_v1.json
+data/ragas_scores_v2.json
